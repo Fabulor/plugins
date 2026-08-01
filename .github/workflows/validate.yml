@@ -1,0 +1,46 @@
+name: Validate add-ons
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Python and Tcl
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.14"
+
+      - name: Install Tcl
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes tcl
+
+      - name: Validate repository contracts and Python syntax
+        run: python tools/validate_addons.py
+
+      - name: Validate Tcl syntax
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r -d '' script; do
+            echo "Checking ${script}"
+            tclsh "${script}"
+          done < <(find . -mindepth 2 -maxdepth 2 -type f -name '*.tcl' -print0)
