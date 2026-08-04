@@ -1,0 +1,44 @@
+/build
+builddir/
+doxygen*.tmp
+html/
+*.patch
+tags
+
+# IDE / editor state
+.vs/
+.vscode/
+
+# WiX / installer build outputs
+installer/bin/
+installer/obj/
+installer/build/
+installer/Bootstrapper/obj/
+installer/UX/bin/
+installer/UX/obj/
+src/managed/**/bin/
+src/managed/**/obj/
+samples/**/bin/
+samples/**/obj/
+installer/bootstrapper.log
+*.wixpdb
+
+# Vendored runtimes are not committed
+Runtime/
+
+# Generated compiler and IDE files
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.exe
+*.zip
+*.VC.db
+*.VC.opendb
+
+# Generated files
+__pycache__/
+*.py[cod]
+
+# Ignore VS Code workspace files (not per-repo settings)
+*.code-workspace
