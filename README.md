@@ -4,4 +4,12 @@
 
 ## C#, Python and Tcl manifest plugins
 
-🔌[Plugin Schema, Compatibility, and Troubleshooting](https://github.com/Fabulor/fabulor/blob/417d1a964a26500889132e73ba89e13b2d7ef0b8/docs/plugins/plugin-schema-and-troubleshooting.md)
+🔌[C# Plugin][c-sharp-plugin]  🔌[Python Plugin][python-plugin]  🔌[Tcl Plugin][tcl-plugin]
+
+<!-- URL reference definitions -->
+
+[c-sharp-plugin]: https://github.com/Fabulor/fabulor/blob/b971346cda91aa1ec90cadce8603551df4ae4060/docs/plugins/c-sharp-plugin.md
+
+[python-plugin]: https://github.com/Fabulor/fabulor/blob/b971346cda91aa1ec90cadce8603551df4ae4060/docs/plugins/python-plugin.md
+
+[tcl-plugin]: https://github.com/Fabulor/fabulor/blob/b971346cda91aa1ec90cadce8603551df4ae4060/docs/plugins/tcl-plugin.md
