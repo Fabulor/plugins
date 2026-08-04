@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GreeterPlugin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69cf541b8dba24c474fb76cfb2ee1970d81f1f51")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5261e7ccbbea085b6b7c761c6ae98db6e31b2fb7")]
 [assembly: System.Reflection.AssemblyProductAttribute("GreeterPlugin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GreeterPlugin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,96 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\fabulor-master\\samples\\plugins\\example.csharp.greeter\\GreeterPlugin.csproj": {}
+    "C:\\fabulor-plugins\\example.csharp.greeter\\GreeterPlugin.csproj": {}
   },
   "projects": {
-    "C:\\fabulor-master\\samples\\plugins\\example.csharp.greeter\\GreeterPlugin.csproj": {
+    "C:\\fabulor-plugins\\example.csharp.greeter\\GreeterPlugin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\fabulor-master\\samples\\plugins\\example.csharp.greeter\\GreeterPlugin.csproj",
+        "projectUniqueName": "C:\\fabulor-plugins\\example.csharp.greeter\\GreeterPlugin.csproj",
         "projectName": "GreeterPlugin",
-        "projectPath": "C:\\fabulor-master\\samples\\plugins\\example.csharp.greeter\\GreeterPlugin.csproj",
+        "projectPath": "C:\\fabulor-plugins\\example.csharp.greeter\\GreeterPlugin.csproj",
         "packagesPath": "C:\\Users\\Barry\\.nuget\\packages\\",
-        "outputPath": "C:\\fabulor-master\\samples\\plugins\\example.csharp.greeter\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Barry\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "framework": "net8.0",
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\fabulor-master\\src\\managed\\Fabulor.PluginAbstractions\\Fabulor.PluginAbstractions.csproj": {
-                "projectPath": "C:\\fabulor-master\\src\\managed\\Fabulor.PluginAbstractions\\Fabulor.PluginAbstractions.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.300"
-      },
-      "frameworks": {
-        "net8.0": {
-          "framework": "net8.0",
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.29, 8.0.29]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.29, 8.0.29]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.29, 8.0.29]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\fabulor-master\\src\\managed\\Fabulor.PluginAbstractions\\Fabulor.PluginAbstractions.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\fabulor-master\\src\\managed\\Fabulor.PluginAbstractions\\Fabulor.PluginAbstractions.csproj",
-        "projectName": "Fabulor.PluginAbstractions",
-        "projectPath": "C:\\fabulor-master\\src\\managed\\Fabulor.PluginAbstractions\\Fabulor.PluginAbstractions.csproj",
-        "packagesPath": "C:\\Users\\Barry\\.nuget\\packages\\",
-        "outputPath": "C:\\fabulor-master\\src\\managed\\Fabulor.PluginAbstractions\\obj\\",
+        "outputPath": "C:\\fabulor-plugins\\example.csharp.greeter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Barry\\AppData\\Roaming\\NuGet\\NuGet.Config"
