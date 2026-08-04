@@ -8,8 +8,8 @@
 
 <!-- URL reference definitions -->
 
-[c-sharp-plugin]: https://github.com/Fabulor/fabulor/blob/b971346cda91aa1ec90cadce8603551df4ae4060/docs/plugins/c-sharp-plugin.md
+[c-sharp-plugin]: https://github.com/Fabulor/fabulor/blob/main/docs/plugins/csharp-plugin-guide.md
 
-[python-plugin]: https://github.com/Fabulor/fabulor/blob/b971346cda91aa1ec90cadce8603551df4ae4060/docs/plugins/python-plugin.md
+[python-plugin]: https://github.com/Fabulor/fabulor/blob/main/docs/plugins/python-plugin-guide.md
 
-[tcl-plugin]: https://github.com/Fabulor/fabulor/blob/b971346cda91aa1ec90cadce8603551df4ae4060/docs/plugins/tcl-plugin.md
+[tcl-plugin]: https://github.com/Fabulor/fabulor/blob/main/docs/plugins/tcl-plugin-guide.md
