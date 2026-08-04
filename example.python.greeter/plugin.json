@@ -1,0 +1,13 @@
+{
+  "id": "example.python.greeter",
+  "name": "Python Greeter",
+  "version": "1.0.0",
+  "language": "python",
+  "entrypoint": "plugin.py",
+  "requires_api_version": 1,
+  "dependencies": [],
+  "capabilities": ["events.message", "session.read"],
+  "description": "Sample Python manifest plugin demonstrating initialization, session access, and message callbacks.",
+  "author": "Fabulor",
+  "homepage": "https://github.com/Fabulor/fabulor"
+}

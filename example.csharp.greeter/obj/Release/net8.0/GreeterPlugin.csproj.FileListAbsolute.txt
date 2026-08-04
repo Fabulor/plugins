@@ -1,0 +1,16 @@
+C:\fabulor-master\samples\plugins\example.csharp.greeter\bin\Release\net8.0\GreeterPlugin.deps.json
+C:\fabulor-master\samples\plugins\example.csharp.greeter\bin\Release\net8.0\GreeterPlugin.dll
+C:\fabulor-master\samples\plugins\example.csharp.greeter\bin\Release\net8.0\GreeterPlugin.pdb
+C:\fabulor-master\samples\plugins\example.csharp.greeter\bin\Release\net8.0\Fabulor.PluginAbstractions.dll
+C:\fabulor-master\samples\plugins\example.csharp.greeter\bin\Release\net8.0\Fabulor.PluginAbstractions.pdb
+C:\fabulor-master\samples\plugins\example.csharp.greeter\obj\Release\net8.0\GreeterPlugin.csproj.AssemblyReference.cache
+C:\fabulor-master\samples\plugins\example.csharp.greeter\obj\Release\net8.0\GreeterPlugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\fabulor-master\samples\plugins\example.csharp.greeter\obj\Release\net8.0\GreeterPlugin.AssemblyInfoInputs.cache
+C:\fabulor-master\samples\plugins\example.csharp.greeter\obj\Release\net8.0\GreeterPlugin.AssemblyInfo.cs
+C:\fabulor-master\samples\plugins\example.csharp.greeter\obj\Release\net8.0\GreeterPlugin.csproj.CoreCompileInputs.cache
+C:\fabulor-master\samples\plugins\example.csharp.greeter\obj\Release\net8.0\GreeterPlugin.sourcelink.json
+C:\fabulor-master\samples\plugins\example.csharp.greeter\obj\Release\net8.0\GreeterP.88AF76D1.Up2Date
+C:\fabulor-master\samples\plugins\example.csharp.greeter\obj\Release\net8.0\GreeterPlugin.dll
+C:\fabulor-master\samples\plugins\example.csharp.greeter\obj\Release\net8.0\refint\GreeterPlugin.dll
+C:\fabulor-master\samples\plugins\example.csharp.greeter\obj\Release\net8.0\GreeterPlugin.pdb
+C:\fabulor-master\samples\plugins\example.csharp.greeter\obj\Release\net8.0\ref\GreeterPlugin.dll

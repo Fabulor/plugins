@@ -1,0 +1,13 @@
+{
+  "id": "example.tcl.greeter",
+  "name": "Tcl Greeter",
+  "version": "1.0.0",
+  "language": "tcl",
+  "entrypoint": "plugin.tcl",
+  "requires_api_version": 1,
+  "dependencies": [],
+  "capabilities": ["events.message", "session.read"],
+  "description": "Sample Tcl manifest plugin demonstrating initialization, session access, and message callbacks.",
+  "author": "Fabulor",
+  "homepage": "https://github.com/Fabulor/fabulor"
+}
