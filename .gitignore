@@ -1,6 +1,11 @@
+# WiX / installer build outputs
+example.csharp.greeter/**/bin/
+example.csharp.greeter/**/obj/
+
 # Generated files
 __pycache__/
 *.py[cod]
 
 # Ignore VS Code workspace files (not per-repo settings)
 *.code-workspace
+Could you edi
