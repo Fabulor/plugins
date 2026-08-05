@@ -1,13 +1,13 @@
 {
   "id": "example.csharp.greeter",
   "name": "CSharp Greeter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "language": "csharp",
   "entrypoint": "GreeterPlugin.dll",
-  "requires_api_version": 1,
+  "requires_api_version": 2,
   "dependencies": [],
-  "capabilities": ["events.message", "session.read"],
-  "description": "Sample C# manifest plugin demonstrating initialization, session access, and message callbacks.",
+  "capabilities": ["events.command", "events.server", "messages.write", "session.read"],
+  "description": "Network-aware C# greeter configured with the /greeter command.",
   "author": "Fabulor",
   "homepage": "https://github.com/Fabulor/fabulor"
 }
