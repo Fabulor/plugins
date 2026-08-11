@@ -5,7 +5,7 @@ using Fabulor.Plugins;
 
 public sealed class GreeterPlugin : IFabulorPlugin
 {
-    private static readonly string SettingsPath = Path.Combine(
+    private static readonly string SettingsPath = Path.Join(
         Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ?? AppContext.BaseDirectory,
         "settings.json");
 
