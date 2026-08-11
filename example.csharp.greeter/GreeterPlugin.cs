@@ -1,3 +1,4 @@
+using System.Linq;
 using System.Reflection;
 using System.Text.Json;
 using Fabulor.Plugins;
@@ -121,13 +122,11 @@ public sealed class GreeterPlugin : IFabulorPlugin
         try
         {
             var settings = JsonSerializer.Deserialize<GreeterSettings>(File.ReadAllText(SettingsPath));
-            foreach (var target in settings?.Targets ?? [])
+            foreach (var target in (settings?.Targets ?? [])
+                         .Where(target => !string.IsNullOrWhiteSpace(target.Network)
+                                          && !string.IsNullOrWhiteSpace(target.Channel)))
             {
-                if (!string.IsNullOrWhiteSpace(target.Network)
-                    && !string.IsNullOrWhiteSpace(target.Channel))
-                {
-                    _targets[TargetKey(target.Network, target.Channel)] = target;
-                }
+                _targets[TargetKey(target.Network, target.Channel)] = target;
             }
         }
         catch (Exception error) when (error is IOException or JsonException or UnauthorizedAccessException)
